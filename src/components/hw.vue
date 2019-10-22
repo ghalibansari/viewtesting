@@ -1,14 +1,14 @@
 <template>
-  <div class="hello">
+  <div class="hw">
     <h1>{{ todo.id }} | {{todo.title}} | {{todo.completed}}</h1>
-    <p>Hello vue test</p>
+    <p>Hw vue test</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: ["todo", 'msg']
+  name: 'hw',
+  props: ["todo"]
 }
 </script>
 
